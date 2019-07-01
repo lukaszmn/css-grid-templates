@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lukaszmn/css-grid-templates/issues"
   },
-  "homepage": "https://github.com/lukaszmn/css-grid-templates#readme"
+  "homepage": "https://github.com/lukaszmn/css-grid-templates#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
