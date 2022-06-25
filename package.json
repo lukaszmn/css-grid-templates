@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+	"test": "node test/test.js",
+	"serve": "node misc/serve.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukaszmn/css-grid-templates.git"
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/lukaszmn/css-grid-templates#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
